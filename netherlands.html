@@ -1,0 +1,71 @@
+<!-- 
+======================================================
+Creation Date :21-11-2022
+Creator Name : Sreemathy
+Version No. : -
+Major changes:
+=============
+Date Name Change description
+To load .glb file using cesium.js -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+
+  <!-- Include the CesiumJS JavaScript and CSS files -->
+
+  <script src="https://cesium.com/downloads/cesiumjs/releases/1.99/Build/Cesium/Cesium.js">
+    Cesium.Ion.defaultAccessToken = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiI5MWM5YWM1Zi05MmMyLTRhMGQtYjEwNS1hODE4NWRmYjdmZjMiLCJpZCI6NzMzMDksImlhdCI6MTY2ODc0MzM3MH0.ChQA54RadpK2ZnKVQTJzkh_y7vrrCeQxVbsNI8MaW8g';
+  </script>
+
+  <link href="https://cesium.com/downloads/cesiumjs/releases/1.99/Build/Cesium/Widgets/widgets.css" rel="stylesheet">
+  <link rel="stylesheet" href="js/netherlands.css">
+</head>
+
+<body>
+  <div id="Container" class="fullSize">
+
+  </div>
+  <div id="content">
+    <div id="footer">
+      <ul>
+
+        <li>
+          <input type="checkbox" style="height: 30px;
+        width: 19px;" id="2010" name="2010" value="2010">
+          <label for="2010">2010 </label>
+          <hr>
+        </li>
+
+        <li>
+          <input type="checkbox" style="height: 30px;
+        width: 19px;" id="2018" name="2018" value="2018">
+          <label for="2018">2018</label>
+          <hr>
+        </li>
+
+        <!-- <li>
+          <input type="checkbox" style="height: 30px;
+        width: 19px;" id="2021" name="2021" value="2021">
+          <label for="2021">2021</label>
+          <hr>
+        </li> -->
+
+        <li>
+          <input type="checkbox" style="height: 30px;
+        width: 19px;" id="2022" name="2022" value="2022">
+          <label for="2022">2022</label>
+          <hr>
+        </li>
+
+      </ul>
+    </div>
+  </div>
+  <div id="toolbar"></div>
+  </div>
+  <script src="js/netherlands.js"></script>
+</body>
+
+</html>
